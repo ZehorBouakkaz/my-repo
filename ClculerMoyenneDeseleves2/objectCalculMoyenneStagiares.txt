@@ -1,0 +1,39 @@
+
+Challenge 2
+
+En tant que formatrice Afpa je dispose d'un tableau avec le nom des stagiaires et leurs notes que vous trouverez ci-dessous.
+
+Je vous demande de créer un algorithme qui permettra de calculer la moyenne de chacun des stagiaires.
+
+Quelques pistes :
+
+Ajouter à l’objet  une propriété que vous pouvez appeler moyenne qui contiendra la moyenne des notes pour chaque stagiaire.
+
+Ensuite récupérer et afficher le stagiaire avec la meilleure moyenne
+
+Et enfin, récupèrer et afficher le top 3 des trois meilleurs stagiaires.
+En position 1 le meilleure en 2 le second et en 3 le troisième.
+
+
+const stagiairesAfpa = [
+    {
+        name: 'Tao',
+        notes: [1, 20, 18, 19, 12]
+    },
+    {
+        name: 'Esteban',
+        notes: [17, 18, 20, 13, 15]
+    },
+    {
+        name: 'Marinche',
+        notes: [17, 12, 14, 15, 13]
+    },
+    {
+        name: 'Mendoza',
+        notes: [2, 3, 5, 8, 9]
+    },
+    {
+        name: 'Zia',
+        notes: [18, 17, 18, 19, 12]
+    }
+]
